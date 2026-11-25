@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local exports and archived prototypes
+/local-archive/
+*.csv
+*.tar.gz
+*.zip
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*-key.txt
+*.pem
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
